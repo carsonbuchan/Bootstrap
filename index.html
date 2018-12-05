@@ -1,0 +1,212 @@
+<!doctype html>
+<html>
+<head>
+    <title>Danforth Bakery</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="styles/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"></script>
+    <script src="scripts/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="styles/styles.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">
+    <!--fonts-->
+    <link href="https://fonts.googleapis.com/css?family=Oswald|Pacifico" rel="stylesheet">
+    </head>
+<body>
+   
+        <!-- NAVBAR -->
+    <nav class="navbar navbar-expand-lg navbgcolor navbar-dark container-fluid fixed-top">
+        <div class="container"><a class="navbar-brand" href="#"><img src="images/logo.png" style="width: 50px; height: 50px">&nbsp; Danforth Bakery</a>
+          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item active">
+                        <a class="nav-link" href="#">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#aboutus">About Us</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#navtutorial">Tutorial</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#contactus">Contact Us</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+   
+        <!-- CAROUSEL -->
+    <div id="demo" class="carousel slide" data-ride="carousel">
+      <ul class="carousel-indicators">
+        <li data-target="#demo" data-slide-to="0" class="active"></li>
+        <li data-target="#demo" data-slide-to="1"></li>
+        <li data-target="#demo" data-slide-to="2"></li>
+        <li data-target="#demo" data-slide-to="3"></li>
+      </ul>
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <img src="/images/assortment.jpg" alt="Assorted Goods">
+          <div class="carousel-caption">
+          </div>   
+        </div>
+        <div class="carousel-item">
+          <img src="/images/cookies.jpg" alt="Cookies">
+          <div class="carousel-caption">
+          </div>   
+        </div>
+        <div class="carousel-item">
+          <img src="/images/rolls.jpg" alt="Rolls">
+          <div class="carousel-caption">
+          </div>   
+        </div>
+        <div class="carousel-item">
+          <img src="/images/seethrough.jpg" alt="See Through">
+          <div class="carousel-caption">
+          </div>   
+        </div>
+      </div>
+      <a class="carousel-control-prev" href="#demo" data-slide="prev">
+        <span class="fas fa-chevron-circle-left"></span>
+      </a>
+      <a class="carousel-control-next" href="#demo" data-slide="next">
+        <span class="fas fa-chevron-circle-right"></span>
+      </a>      
+    </div>
+
+        <!-- HEADER -->
+    <header class="jumbotron jumbotron-fluid text-center jumbotronBg" id="aboutus">
+	   <h1>Danforth Bakery</h1>
+        <h4>A little slice of heaven</h4>
+        <button type="button" class="btn btn-outline-light btn-lg">Sign Up</button>
+    </header>
+    
+    <main>
+            <!-- 4 IMAGES -->   
+        <section class="container text-center">
+            <article class="row">
+                <div class="col-sm-3">
+                    <img src="images/baker.jpg" class="img-fluid rounded-circle" alt="Head Baker">
+                    <h2>Expert Baking</h2>
+                    <p>Our expert bakers ensure the best product available</p>
+                </div>
+                <div class="col-sm-3">
+                    <img src="images/manager.jpg" class="img-fluid rounded-circle" alt="Leadership">
+                    <h2>Management</h2>
+                    <p>Our management provides the best customer service on the market</p>
+                </div>
+                <div class="col-sm-3">
+                    <img src="images/storefront.jpg" class="img-fluid rounded-circle" alt="Storefront">
+                    <h2>Selection</h2>
+                    <p>We provide a huge assortment of baked goods</p>
+                </div>
+                <div class="col-sm-3">
+                    <img src="images/bread.jpg" class="img-fluid rounded-circle" alt="Quality Ingredients">
+                    <h2>Quality</h2>
+                    <p>We use the best locally grown ingredients available</p>
+                </div>
+            </article>
+        </section>
+
+            <!-- ABOUT --> 
+        <section class="jumbotron jumbotron-fluid  text-center jumbotronAbout">
+            <div class="container text-center">
+                <h1>About Us</h1>
+                <p>Opened in 2011. Located at Woodbine and Danforth, Toronto. We believe in good food: food that is made proudly from scratch, using honest ingredients produced by folks that are getting paid for their skills and labour. We believe in supporting our local economy by sourcing from area farmers and vendors whenever possible. Our flours, grains, milk, cream, butter and eggs are all sourced locally.</p>
+                <button type="button" class="btn btn-outline-light btn-lg" id="navtutorial">See More</button>
+             </div>
+        </section> 
+        
+            <!-- MAKE YOUR BREAD TITLE -->
+        <section class="container text-center">
+            <h2 id="make">Make Your Own Bread!</h2>
+        </section>
+        
+                <!-- VIDEO CARD SECTION -->  
+        <div class="container">
+            <div class="card-deck">
+              <div class="card">
+                <img class="card-img-top" src="/images/baguette.jpg" alt="Baguette">
+                <div class="card-body">
+                  <h2 class="card-title">Baguette</h2>
+                  <p class="card-text">This is a very common and delicious bread, works incredibly well alongside pasta.</p>
+                </div>
+                  <div class="row">
+                    <div class="col-12 text-center seeMore">
+                        <button class="btn btn-dark">See More!</button>  
+                    </div>
+                  </div>
+              </div>
+              <div class="card">
+                <img class="card-img-top" src="/images/pita.jpg" alt="Pita">
+                <div class="card-body">
+                    <h2 class="card-title">Pita</h2>
+                  <p class="card-text">Pita can be used to scoop sauces or dips, such as hummus, or to wrap kebabs, gyros, or falafel in the manner of sandwiches. </p>
+                </div>
+                  <div class="row">
+                    <div class="col-12 text-center seeMore">
+                        <button class="btn btn-dark">See More!</button>  
+                    </div>
+                  </div>
+              </div>
+              <div class="card">
+                <img class="card-img-top" src="/images/bananabread.jpg" alt="Banana Bread">
+                <div class="card-body">
+                    <h2 class="card-title">Banana Bread </h2>
+                  <p class="card-text">Banana Bread is a delicious dessert made with bananas. Goes very well alongside warm drinks.</p>
+                </div>
+                  <div class="row">
+                    <div class="col-12 text-center seeMore">
+                      <button class="btn btn-dark">See More!</button>
+                    </div>
+                  </div>
+              </div>
+            </div>
+
+                <!-- VIDEO -->
+            <div class="container-fluid tutorialBg">
+                <div class="container">
+                    <h2 id="tutorial">Check out this tutorial!</h2>
+                    <div class="embed-responsive embed-responsive-16by9">
+                        <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/Jizr6LR83Kk" allowfullscreen></iframe>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+    <footer>
+    <!-- CONTACT -->
+        <div class="container">
+            <h2 class="centertext">Contact</h2>
+            <div class="row">
+                <div class="col-sm-12">
+                    <p class="centertext">Toronto Ontario</p>
+                    <p class="centertext">Phone:416 123-1234</p>
+                    <p class="centertext">Email: danforthbakery@gmail.com</p>
+                </div>
+            </div>
+            <h2 class="centertext">Leave a comment!</h2>
+            <div class="row">
+                <div class="col-sm-12 formGroup">
+                    <input class="form-control" id="name" name="name" placeholder="Name" type="text" required>
+                </div>
+                <div class="col-sm-12 formGroup">
+                    <input class="form-control" id="email" name="email" placeholder="Email" type="text" required>
+                </div>
+                <div class="col-sm-12 formGroup">
+                    <textarea class="form-control" id="comment" name="comment" placeholder="Comment" rows="5"></textarea>
+                </div>
+                <div class="col-sm-12 formGroup">
+                    <button class="btn btn-dark btn-block" type="submit" id="contactus">Send</button>
+                </div>
+            </div>
+        
+        </div>
+    </footer>
+</body>
+</html>

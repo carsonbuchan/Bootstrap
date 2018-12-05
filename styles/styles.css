@@ -1,0 +1,116 @@
+@charset "UTF-8";
+
+.jumbotronBg{
+    background-color: #1A1A1A;
+    color: #fff;
+}
+
+/*
+Fonts 
+font-family: 'Pacifico', cursive;
+font-family: 'Oswald', sans-serif;
+*/
+
+h1{
+    font-size: 50px;
+    font-family: 'Pacifico', cursive;
+}
+
+h4{
+    font-family: 'Oswald', 'sans-serif';
+}
+
+h2{
+    font-family: 'Pacifico', cursive;
+}
+
+p{
+    font-family: 'Oswald', 'sans-serif';
+}
+
+.navbar-nav, a:hover{
+    color:#FFF!Important;
+    font-size:120%;
+    background-color:#1A1A1A;
+}
+
+.navbar-nav a:hover{
+    color:#FFF!Important;
+    font-size:120%;
+    background-color:#1A1A1A;
+}
+
+
+.navbgcolor{
+    background-color: #1A1A1A;
+}
+
+.navbar-brand{
+    font-family: 'Pacifico', cursive;
+    color: #fff;
+    font-size: 120%
+}
+
+.nav-item{
+    font-family: 'Oswald', sans-serif;
+}
+
+.jumbotronAbout{
+    background-color: #1A1A1A;
+    color: #fff;
+}
+
+.carousel-inner img{
+    width:100%;
+    height:auto;
+}
+
+.carousel-indicators li{
+	background-color: #000;
+    opacity: 0.75;
+}
+
+.carousel-indicators .active{
+	background-color: #666666;
+    opacity: 0.75;
+}
+
+.fas{
+    color: #000;
+    font-size: 3rem;
+}
+
+#make{
+    padding-bottom: 2rem;
+}
+
+.seeMore{
+    padding-bottom: 1rem;
+}
+
+.seeHow{
+    padding-bottom: 1rem;
+}
+
+.tutorialBg{
+    background-color: #1A1A1A
+}
+
+#tutorial{
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+    text-align: center;
+    color: #fff;
+}
+
+.formGroup{
+    padding-top: 0.5rem;
+}
+
+.centertext{
+    text-align: center;
+}
+
+.centertext, h2{
+    padding-top: 1rem;
+}
